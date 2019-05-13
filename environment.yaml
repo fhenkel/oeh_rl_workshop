@@ -1,0 +1,19 @@
+name: hands_on_rl
+
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.6.7
+  - pytorch=1.0.1
+  - torchvision=0.1.8
+
+
+  - pip:
+    - gym
+    - gym[atari]
+    - matplotlib
+    - seaborn
+
